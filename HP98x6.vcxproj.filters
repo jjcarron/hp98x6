@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7de98983-039d-49b3-aa9d-b6133e2808f6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b1f90160-20af-4b96-bb34-f14a66ca3af5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{da1ca95a-afb6-4b6f-9d0c-9794a07da7a9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="98x6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display36c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display37.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-2225.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-7908.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-9121.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-9122.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-9130.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-98620.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-98626.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-98635.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hp-ib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HP98x6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="98x6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HP98x6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HP98x6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HP98x6.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
