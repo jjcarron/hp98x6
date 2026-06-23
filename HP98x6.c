@@ -14,7 +14,7 @@
 #include "kml.h"
 #include "debugger.h"
 
-#define VERSION   "0.01"
+#define VERSION   "2026.06.01"
 
 //#define DEBUG_KEYBOARDW
 #if defined DEBUG_KEYBOARDW

@@ -233,7 +233,7 @@ FONT 8, "MS Sans Serif", 0, 0, 1
 {
     ICON            IDI_HP98X6, IDC_STATIC, 7, 6, 21, 20, SS_ICON | 0x00000800, WS_EX_TRANSPARENT
     LTEXT           "", IDC_VERSION, 29, 6, 151, 8, NOT WS_GROUP | SS_LEFT
-    LTEXT           "Copyright © 2004-2006 Olivier De Smet", IDC_STATIC, 29, 18, 181, 8, SS_LEFT
+    LTEXT           "Copyright \251 2004-2006 Olivier De Smet", IDC_STATIC, 29, 18, 181, 8, SS_LEFT
     DEFPUSHBUTTON   "OK", IDOK, 215, 12, 39, 14
     EDITTEXT        IDC_LICENSE, 7, 33, 247, 112, ES_AUTOHSCROLL | ES_MULTILINE | ES_READONLY
 }
@@ -247,8 +247,8 @@ CAPTION "About"
 FONT 8, "System"
 {
     ICON            IDI_HP98X6, IDC_MYICON, 14, 9, 20, 20, SS_ICON
-    LTEXT           "HP98x6 Version 0.01", IDC_STATIC, 49, 10, 69, 8, SS_LEFT | SS_NOPREFIX
-    LTEXT           "Copyright (C) 2010", IDC_STATIC, 49, 20, 61, 8, SS_LEFT
+    LTEXT           "HP98x6 Version 2026.06.01", IDC_STATIC, 49, 10, 96, 8, SS_LEFT | SS_NOPREFIX
+    LTEXT           "Copyright \251 2010", IDC_STATIC, 49, 20, 61, 8, SS_LEFT
     DEFPUSHBUTTON   "OK", IDOK, 195, 6, 30, 11, WS_GROUP
 }
 
@@ -556,3 +556,5 @@ IDI_HP98X6         ICON           "HP98x6.ICO"
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 IDI_SMALL          ICON           "SMALL.ICO"
+
+

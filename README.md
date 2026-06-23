@@ -1,8 +1,18 @@
 # hp98x6
-A fork of Olivier De Smet's HP98x6 emulator.
+This project is a fork of the HP98x6 emulator originally developed by Olivier De Smet.
 
-This emulator is in really rough shape. Some menu interfaces don't work right, a broken Windows XP theme, and a whole bunch of other issues. What's worse,
-is that the emulator isn't available for download any more. I used the Wayback Machine to download the source code.
+The source code used as a base for this fork comes from the public repository published by calmsacibis995, which contains the GPL‑3.0 license and the original sources.
+
+The original distribution by Olivier De Smet is also available under his site [hp98x6](https://sites.google.com/site/olivier2smet2/hp_projects/hp98x6).
+
+Current release: `2026.06.01`
+
+This fork preserves the original emulator sources and adds maintenance updates to keep the project usable on current systems.
+
+## Release 2026.06.01
+- Updated the 9816, 9836A, and 9836C built-in font tables for improved extended-character rendering.
+- Rebuilt the 9816 extended glyph sheet from an edited review sheet.
+- Kept build artifacts and local editing assets out of Git.
 
 ## Font adaptations
 - The built-in alpha font bitmaps are selected by machine model at runtime:
