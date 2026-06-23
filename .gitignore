@@ -6,7 +6,9 @@ Backup1/
 bmp/
 bmp_bw/
 Ref/
+add_on/
 *.log
+*.bin
 *.tlog
 *.recipe
 *.obj
@@ -19,3 +21,4 @@ printer-*.txt
 UpgradeLog*.htm
 codex_resume.txt
 display36c-trace.log
+charset_extension_proposal.md
